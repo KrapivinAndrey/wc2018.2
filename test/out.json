@@ -1,1 +1,1 @@
-{"UserCommands":[{"Command":"MOVE","Parameters":{"Id":0,"Target":"0\/0\/9"}}],"Message":"in:1;it:26.7304;__ID__0;D_9;S_0\/0\/0;E_0\/0\/9;O_0\/0\/9;SEC_;D_9;S_0\/0\/0;E_0\/0\/9;O_0\/0\/9;"}
+﻿{"UserCommands":[{"Command":"ACCELERATE","Parameters":{"Id":0,"Vector":"1/1/1"}},{"Command":"ATTACK","Parameters":{"Id":1,"Name":"big_blaster","Target":"0/0/4"}},{"Command":"ACCELERATE","Parameters":{"Id":1,"Vector":"1/1/-1"}}],"Message":"in:95;it:18.0034;0VEK_:1/1/1;#1;1VEK_:1/1/-1;"}
