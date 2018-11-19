@@ -1,1 +1,1 @@
-oscript myship.os < ./test/in.txt > ./test/out.txt
+oscript myship.os < ./test/in.json > ./test/out.json
