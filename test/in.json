@@ -1,1 +1,54 @@
-{"My":[{"Id":0,"Velocity":"0/0/0","Position":"0/0/0","Energy":50,"Health":100,"Equipment":[{"Type":0,"IncrementPerTurn":10,"MaxEnergy":100,"StartEnergy":50,"Name":"big_energy"},{"Type":3,"MaxHealth":100,"StartHealth":100,"Name":"big_health"},{"Type":2,"MaxAccelerate":1,"Name":"big_engine"},{"Type":1,"Damage":0,"EnergyPrice":10,"Radius":5,"EffectType":0,"Name":"big_blaster"}]},{"Id":1,"Velocity":"0/0/0","Position":"0/0/2","Energy":50,"Health":100,"Equipment":[{"Type":0,"IncrementPerTurn":10,"MaxEnergy":100,"StartEnergy":50,"Name":"big_energy"},{"Type":3,"MaxHealth":100,"StartHealth":100,"Name":"big_health"},{"Type":2,"MaxAccelerate":1,"Name":"big_engine"},{"Type":1,"Damage":0,"EnergyPrice":10,"Radius":5,"EffectType":0,"Name":"big_blaster"}]}],"Opponent":[{"Id":10000,"Velocity":"0/0/1","Position":"0/0/4","Health":100}],"FireInfos":[{"Source":"0/4/25","Target":"0/3/20","EffectType":0}]}
+{
+    "My": [
+        {
+            "Id": 0,
+            "Velocity": "0/0/0",
+            "Position": "0/0/0",
+            "Energy": 50,
+            "Health": 100,
+            "Equipment": [
+                {
+                    "Type": 0,
+                    "IncrementPerTurn": 10,
+                    "MaxEnergy": 100,
+                    "StartEnergy": 50,
+                    "Name": "big_energy"
+                },
+                {
+                    "Type": 3,
+                    "MaxHealth": 100,
+                    "StartHealth": 100,
+                    "Name": "big_health"
+                },
+                {
+                    "Type": 2,
+                    "MaxAccelerate": 1,
+                    "Name": "big_engine"
+                },
+                {
+                    "Type": 1,
+                    "Damage": 0,
+                    "EnergyPrice": 10,
+                    "Radius": 5,
+                    "EffectType": 0,
+                    "Name": "big_blaster"
+                }
+            ]
+        }
+    ],
+    "Opponent": [
+        {
+            "Id": 10000,
+            "Velocity": "0/0/0",
+            "Position": "28/28/28",
+            "Health": 100
+        }
+    ],
+    "FireInfos": [
+        {
+            "Source": "0/4/25",
+            "Target": "0/3/20",
+            "EffectType": 0
+        }
+    ]
+}
