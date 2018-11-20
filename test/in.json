@@ -2,10 +2,10 @@
     "My": [
         {
             "Id": 0,
-            "Velocity": "0/0/0",
-            "Position": "0/0/0",
+            "Velocity": "1/4/4",
+            "Position": "4/11/11",
             "Energy": 50,
-            "Health": 100,
+            "Health": 97,
             "Equipment": [
                 {
                     "Type": 0,
@@ -34,14 +34,178 @@
                     "Name": "big_blaster"
                 }
             ]
-        }
+        },
+        {
+            "Id": 1,
+            "Velocity": "2/4/4",
+            "Position": "10/11/11",
+            "Energy": 50,
+            "Health": 97,
+            "Equipment": [
+                {
+                    "Type": 0,
+                    "IncrementPerTurn": 10,
+                    "MaxEnergy": 100,
+                    "StartEnergy": 50,
+                    "Name": "big_energy"
+                },
+                {
+                    "Type": 3,
+                    "MaxHealth": 100,
+                    "StartHealth": 100,
+                    "Name": "big_health"
+                },
+                {
+                    "Type": 2,
+                    "MaxAccelerate": 1,
+                    "Name": "big_engine"
+                },
+                {
+                    "Type": 1,
+                    "Damage": 0,
+                    "EnergyPrice": 10,
+                    "Radius": 5,
+                    "EffectType": 0,
+                    "Name": "big_blaster"
+                }
+            ]
+        },
+        {
+            "Id": 2,
+            "Velocity": "2/4/4",
+            "Position": "12/11/11",
+            "Energy": 100,
+            "Health": 84,
+            "Equipment": [
+                {
+                    "Type": 0,
+                    "IncrementPerTurn": 10,
+                    "MaxEnergy": 100,
+                    "StartEnergy": 50,
+                    "Name": "big_energy"
+                },
+                {
+                    "Type": 3,
+                    "MaxHealth": 100,
+                    "StartHealth": 100,
+                    "Name": "big_health"
+                },
+                {
+                    "Type": 2,
+                    "MaxAccelerate": 1,
+                    "Name": "big_engine"
+                },
+                {
+                    "Type": 1,
+                    "Damage": 0,
+                    "EnergyPrice": 10,
+                    "Radius": 5,
+                    "EffectType": 0,
+                    "Name": "big_blaster"
+                }
+            ]
+        },
+        {
+            "Id": 3,
+            "Velocity": "2/4/4",
+            "Position": "14/11/11",
+            "Energy": 100,
+            "Health": 88,
+            "Equipment": [
+                {
+                    "Type": 0,
+                    "IncrementPerTurn": 10,
+                    "MaxEnergy": 100,
+                    "StartEnergy": 50,
+                    "Name": "big_energy"
+                },
+                {
+                    "Type": 3,
+                    "MaxHealth": 100,
+                    "StartHealth": 100,
+                    "Name": "big_health"
+                },
+                {
+                    "Type": 2,
+                    "MaxAccelerate": 1,
+                    "Name": "big_engine"
+                },
+                {
+                    "Type": 1,
+                    "Damage": 0,
+                    "EnergyPrice": 10,
+                    "Radius": 5,
+                    "EffectType": 0,
+                    "Name": "big_blaster"
+                }
+            ]
+        },
+        {
+            "Id": 4,
+            "Velocity": "2/4/4",
+            "Position": "16/11/11",
+            "Energy": 100,
+            "Health": 88,
+            "Equipment": [
+                {
+                    "Type": 0,
+                    "IncrementPerTurn": 10,
+                    "MaxEnergy": 100,
+                    "StartEnergy": 50,
+                    "Name": "big_energy"
+                },
+                {
+                    "Type": 3,
+                    "MaxHealth": 100,
+                    "StartHealth": 100,
+                    "Name": "big_health"
+                },
+                {
+                    "Type": 2,
+                    "MaxAccelerate": 1,
+                    "Name": "big_engine"
+                },
+                {
+                    "Type": 1,
+                    "Damage": 0,
+                    "EnergyPrice": 10,
+                    "Radius": 5,
+                    "EffectType": 0,
+                    "Name": "big_blaster"
+                }
+            ]
+        }      
     ],
     "Opponent": [
         {
             "Id": 10000,
-            "Velocity": "0/0/0",
-            "Position": "28/28/28",
-            "Health": 100
+            "Velocity": "1/-4/-4",
+            "Position": "24/17/17",
+            "Health": 97
+        },
+        {
+            "Id": 10001,
+            "Velocity": "2/-4/-4",
+            "Position": "18/17/17",
+            "Health": 85
+        },
+        {
+            "Id": 10002,
+            "Velocity": "-2/-4/-4",
+            "Position": "16/17/17",
+            "Health": 84
+        },
+        {
+            "Id": 10003,
+            "Velocity": "-2/-4/-4",
+            "Position": "14/17/17",
+            "Health": 88
+        },
+        {
+            "Id": 10004,
+            "Velocity": "-2/-4/-4",
+            "Position": "12/17/17",
+            "Health": 96
         }
     ],
     "FireInfos": [
