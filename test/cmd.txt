@@ -1,1 +1,0 @@
-oscript myship.os < ./test/in.json > ./test/out.json
