@@ -134,27 +134,27 @@
 		МассивКораблей.Добавить(Корабликforward);
 	Иначе 
 		Корабликforward = Новый Соответствие;
-		Корабликforward.Вставить("Position", "28/0/0");
+		Корабликforward.Вставить("Position", "7/28/28");
 		Корабликforward.Вставить("CompleteShipId", "forward");
 		МассивКораблей.Добавить(Корабликforward);
 		
 		Корабликforward = Новый Соответствие;
-		Корабликforward.Вставить("Position", "24/0/0");
+		Корабликforward.Вставить("Position", "11/28/28");
 		Корабликforward.Вставить("CompleteShipId", "forward");
 		МассивКораблей.Добавить(Корабликforward);
 		
 		Корабликforward = Новый Соответствие;
-		Корабликforward.Вставить("Position", "28/0/4");
+		Корабликforward.Вставить("Position", "15/28/28");
 		Корабликforward.Вставить("CompleteShipId", "forward");
 		МассивКораблей.Добавить(Корабликforward);
 		
 		Корабликforward = Новый Соответствие;
-		Корабликforward.Вставить("Position", "26/0/2");
+		Корабликforward.Вставить("Position", "19/28/28");
 		Корабликforward.Вставить("CompleteShipId", "forward");
 		МассивКораблей.Добавить(Корабликforward);
 		
 		Корабликforward = Новый Соответствие;
-		Корабликforward.Вставить("Position", "24/0/2");
+		Корабликforward.Вставить("Position", "23/28/28");
 		Корабликforward.Вставить("CompleteShipId", "forward");
 		МассивКораблей.Добавить(Корабликforward);
 	КонецЕсли;
