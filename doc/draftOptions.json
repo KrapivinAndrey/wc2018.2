@@ -1,217 +1,119 @@
 {
-    "mapSize": 30,
-    "playerId": 0,
-    "maxShipsCount": 10,
-    "money": 250,
-    "startArea": {
-        "from": "0/0/0",
-        "to": "29/2/29"
+    "PlayerId": 0,
+    "MapSize": 30,
+    "Money": 250,
+    "MaxShipsCount": 10,
+    "StartArea": {
+        "From": "0/0/0",
+        "To": "29/2/29"
     },
-    "equipment": [
+    "Equipment": [
         {
-            "availableToBuy": true,
-            "price": 10,
-            "size": 1,
-            "equipment": {
-                "name": "big_energy",
-                "type": "energy",
-                "effectType": null,
-                "radius": null,
-                "energyPrice": null,
-                "damage": null,
-                "healthGain": null,
-                "energyGain": null,
-                "maxHealth": null,
-                "startHealth": null,
-                "armor": null,
-                "startEnergy": 50,
-                "maxEnergy": 100,
-                "incrementPerTurn": 10,
-                "maxAccelerate": null
+            "AvailableToBuy": true,
+            "Price": 10,
+            "Size": 1,
+            "Equipment": {
+                "Type": 0,
+                "IncrementPerTurn": 10,
+                "MaxEnergy": 100,
+                "StartEnergy": 50,
+                "Name": "big_energy"
             }
         },
         {
-            "availableToBuy": true,
-            "price": 10,
-            "size": 1,
-            "equipment": {
-                "name": "big_health",
-                "type": "health",
-                "effectType": null,
-                "radius": null,
-                "energyPrice": null,
-                "damage": null,
-                "healthGain": null,
-                "energyGain": null,
-                "maxHealth": 100,
-                "startHealth": 100,
-                "armor": null,
-                "startEnergy": null,
-                "maxEnergy": null,
-                "incrementPerTurn": null,
-                "maxAccelerate": null
+            "AvailableToBuy": true,
+            "Price": 10,
+            "Size": 1,
+            "Equipment": {
+                "Type": 3,
+                "MaxHealth": 100,
+                "StartHealth": 100,
+                "Name": "big_health"
             }
         },
         {
-            "availableToBuy": true,
-            "price": 10,
-            "size": 1,
-            "equipment": {
-                "name": "big_blaster",
-                "type": "gun",
-                "effectType": "blaster",
-                "radius": 5,
-                "energyPrice": 10,
-                "damage": 5,
-                "healthGain": null,
-                "energyGain": null,
-                "maxHealth": null,
-                "startHealth": null,
-                "armor": null,
-                "startEnergy": null,
-                "maxEnergy": null,
-                "incrementPerTurn": null,
-                "maxAccelerate": null
+            "AvailableToBuy": true,
+            "Price": 10,
+            "Size": 1,
+            "Equipment": {
+                "Type": 1,
+                "Damage": 5,
+                "EnergyPrice": 10,
+                "Radius": 5,
+                "EffectType": 0,
+                "Name": "big_blaster"
             }
         },
         {
-            "availableToBuy": true,
-            "price": 10,
-            "size": 3,
-            "equipment": {
-                "name": "big_engine",
-                "type": "engine",
-                "effectType": null,
-                "radius": null,
-                "energyPrice": null,
-                "damage": null,
-                "healthGain": null,
-                "energyGain": null,
-                "maxHealth": null,
-                "startHealth": null,
-                "armor": null,
-                "startEnergy": null,
-                "maxEnergy": null,
-                "incrementPerTurn": null,
-                "maxAccelerate": 1
+            "AvailableToBuy": true,
+            "Price": 10,
+            "Size": 3,
+            "Equipment": {
+                "Type": 2,
+                "MaxAccelerate": 1,
+                "Name": "big_engine"
             }
         },
         {
-            "availableToBuy": true,
-            "price": 10,
-            "size": 1,
-            "equipment": {
-                "name": "big_shield",
-                "type": "shield",
-                "effectType": null,
-                "radius": null,
-                "energyPrice": 25,
-                "damage": null,
-                "healthGain": null,
-                "energyGain": null,
-                "maxHealth": null,
-                "startHealth": null,
-                "armor": 5,
-                "startEnergy": null,
-                "maxEnergy": null,
-                "incrementPerTurn": null,
-                "maxAccelerate": null
+            "AvailableToBuy": true,
+            "Price": 10,
+            "Size": 1,
+            "Equipment": {
+                "Type": 4,
+                "Armor": 5,
+                "EnergyPrice": 25,
+                "Name": "big_shield"
             }
         },
         {
-            "availableToBuy": true,
-            "price": 10,
-            "size": 1,
-            "equipment": {
-                "name": "big_nose",
-                "type": "sharpNose",
-                "effectType": null,
-                "radius": null,
-                "energyPrice": null,
-                "damage": 10,
-                "healthGain": null,
-                "energyGain": null,
-                "maxHealth": null,
-                "startHealth": null,
-                "armor": null,
-                "startEnergy": null,
-                "maxEnergy": null,
-                "incrementPerTurn": null,
-                "maxAccelerate": null
+            "AvailableToBuy": true,
+            "Price": 10,
+            "Size": 1,
+            "Equipment": {
+                "Type": 5,
+                "Damage": 10,
+                "Name": "big_nose"
             }
         },
         {
-            "availableToBuy": true,
-            "price": 10,
-            "size": 1,
-            "equipment": {
-                "name": "big_heal",
-                "type": "heal",
-                "effectType": null,
-                "radius": 10,
-                "energyPrice": 25,
-                "damage": null,
-                "healthGain": 10,
-                "energyGain": 10,
-                "maxHealth": null,
-                "startHealth": null,
-                "armor": null,
-                "startEnergy": null,
-                "maxEnergy": null,
-                "incrementPerTurn": null,
-                "maxAccelerate": null
+            "AvailableToBuy": true,
+            "Price": 10,
+            "Size": 1,
+            "Equipment": {
+                "Type": 7,
+                "HealthGain": 10,
+                "EnergyGain": 10,
+                "EnergyPrice": 25,
+                "Radius": 10,
+                "Name": "big_heal"
             }
         },
         {
-            "availableToBuy": null,
-            "price": null,
-            "size": 1,
-            "equipment": {
-                "name": "small_health",
-                "type": "health",
-                "effectType": null,
-                "radius": null,
-                "energyPrice": null,
-                "damage": null,
-                "healthGain": null,
-                "energyGain": null,
-                "maxHealth": 3,
-                "startHealth": 3,
-                "armor": null,
-                "startEnergy": null,
-                "maxEnergy": null,
-                "incrementPerTurn": null,
-                "maxAccelerate": null
+            "Size": 1,
+            "Equipment": {
+                "Type": 3,
+                "MaxHealth": 3,
+                "StartHealth": 3,
+                "Name": "small_health"
             }
         },
         {
-            "availableToBuy": null,
-            "price": null,
-            "size": 1,
-            "equipment": {
-                "name": "big_railgun",
-                "type": "gun",
-                "effectType": "railgun",
-                "radius": 30,
-                "energyPrice": 150,
-                "damage": 50,
-                "healthGain": null,
-                "energyGain": null,
-                "maxHealth": null,
-                "startHealth": null,
-                "armor": null,
-                "startEnergy": null,
-                "maxEnergy": null,
-                "incrementPerTurn": null,
-                "maxAccelerate": null
+            "Size": 1,
+            "Equipment": {
+                "Type": 1,
+                "Damage": 50,
+                "EnergyPrice": 150,
+                "Radius": 30,
+                "EffectType": 1,
+                "Name": "big_railgun"
             }
         }
     ],
     "completeShips": [
         {
-            "id": "delta",
-            "price": 50,
-            "equipment": [
+            "Id": "delta",
+            "Price": 50,
+            "Equipment": [
                 "big_energy",
                 "big_health",
                 "big_blaster",
@@ -220,9 +122,9 @@
             ]
         },
         {
-            "id": "forward",
-            "price": 50,
-            "equipment": [
+            "Id": "forward",
+            "Price": 50,
+            "Equipment": [
                 "big_energy",
                 "big_health",
                 "big_blaster",
@@ -231,9 +133,9 @@
             ]
         },
         {
-            "id": "daedalus",
-            "price": 50,
-            "equipment": [
+            "Id": "daedalus",
+            "Price": 50,
+            "Equipment": [
                 "big_energy",
                 "big_health",
                 "big_engine",
@@ -242,9 +144,9 @@
             ]
         },
         {
-            "id": "lexx",
-            "price": 130,
-            "equipment": [
+            "Id": "lexx",
+            "Price": 130,
+            "Equipment": [
                 "big_energy",
                 "small_health",
                 "big_railgun",
@@ -252,9 +154,9 @@
             ]
         },
         {
-            "id": "scout",
-            "price": 40,
-            "equipment": [
+            "Id": "scout",
+            "Price": 40,
+            "Equipment": [
                 "big_energy",
                 "big_health",
                 "big_blaster",
@@ -262,9 +164,9 @@
             ]
         },
         {
-            "id": "wallship",
-            "price": 50,
-            "equipment": [
+            "Id": "wallship",
+            "Price": 50,
+            "Equipment": [
                 "big_energy",
                 "big_health",
                 "big_shield",
@@ -273,9 +175,9 @@
             ]
         },
         {
-            "id": "sharp",
-            "price": 40,
-            "equipment": [
+            "Id": "sharp",
+            "Price": 40,
+            "Equipment": [
                 "big_energy",
                 "big_health",
                 "big_nose",
