@@ -25,6 +25,19 @@
             "Price": 10,
             "Size": 1,
             "Equipment": {
+                "Name": "giant_blaster",
+                "Type": "gun",
+                "EffectType": "blaster",
+                "Radius": 6,
+                "EnergyPrice": 12,
+                "Damage": 6
+            }
+        },        
+        {
+            "AvailableToBuy": true,
+            "Price": 10,
+            "Size": 1,
+            "Equipment": {
                 "Type": 3,
                 "MaxHealth": 100,
                 "StartHealth": 100,
