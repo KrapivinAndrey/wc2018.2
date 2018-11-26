@@ -1,0 +1,288 @@
+{
+    "mapSize": 30,
+    "playerId": 0,
+    "maxShipsCount": 20,
+    "money": 400,
+    "startArea": {
+        "from": "0/0/0",
+        "to": "29/2/29"
+    },
+    "equipment": [
+        {
+            "availableToBuy": true,
+            "price": 10,
+            "size": 1,
+            "equipment": {
+                "name": "big_energy",
+                "type": "energy",
+                "startEnergy": 50,
+                "maxEnergy": 100,
+                "incrementPerTurn": 10
+            }
+        },
+        {
+            "availableToBuy": true,
+            "price": 10,
+            "size": 1,
+            "equipment": {
+                "name": "big_health",
+                "type": "health",
+                "maxHealth": 100,
+                "startHealth": 100
+            }
+        },
+        {
+            "availableToBuy": true,
+            "price": 10,
+            "size": 1,
+            "equipment": {
+                "name": "big_blaster",
+                "type": "gun",
+                "effectType": "blaster",
+                "radius": 5,
+                "energyPrice": 10,
+                "damage": 5
+            }
+        },
+        {
+            "availableToBuy": true,
+            "price": 10,
+            "size": 3,
+            "equipment": {
+                "name": "big_engine",
+                "type": "engine",
+                "maxAccelerate": 1
+            }
+        },
+        {
+            "availableToBuy": true,
+            "price": 10,
+            "size": 1,
+            "equipment": {
+                "name": "big_shield",
+                "type": "shield",
+                "energyPrice": 25,
+                "armor": 5
+            }
+        },
+        {
+            "availableToBuy": true,
+            "price": 10,
+            "size": 1,
+            "equipment": {
+                "name": "big_nose",
+                "type": "sharpNose",
+                "damage": 10
+            }
+        },
+        {
+            "availableToBuy": true,
+            "price": 10,
+            "size": 1,
+            "equipment": {
+                "name": "big_heal",
+                "type": "heal",
+                "radius": 10,
+                "energyPrice": 25,
+                "healthGain": 10,
+                "energyGain": 10
+            }
+        },
+        {
+            "size": 1,
+            "equipment": {
+                "name": "small_health",
+                "type": "health",
+                "maxHealth": 3,
+                "startHealth": 3
+            }
+        },
+        {
+            "availableToBuy": true,
+            "price": 70,
+            "size": 2,
+            "equipment": {
+                "name": "big_railgun",
+                "type": "gun",
+                "effectType": "railgun",
+                "radius": 30,
+                "energyPrice": 150,
+                "damage": 50
+            }
+        },
+        {
+            "availableToBuy": true,
+            "price": 12,
+            "size": 1,
+            "equipment": {
+                "name": "giant_blaster",
+                "type": "gun",
+                "effectType": "blaster",
+                "radius": 6,
+                "energyPrice": 12,
+                "damage": 6
+            }
+        },
+        {
+            "availableToBuy": true,
+            "price": 30,
+            "size": 1,
+            "equipment": {
+                "name": "big_radar",
+                "type": "radar",
+                "radius": 10,
+                "energyPrice": 20
+            }
+        },
+        {
+            "availableToBuy": true,
+            "price": 20,
+            "size": 4,
+            "equipment": {
+                "name": "giant_engine",
+                "type": "engine",
+                "maxAccelerate": 2
+            }
+        },
+        {
+            "availableToBuy": true,
+            "price": 20,
+            "size": 1,
+            "equipment": {
+                "name": "giant_shield",
+                "type": "shield",
+                "energyPrice": 50,
+                "armor": 20
+            }
+        }
+    ],
+    "completeShips": [
+        {
+            "id": "delta",
+            "price": 50,
+            "equipment": [
+                "big_energy",
+                "big_health",
+                "big_blaster",
+                "big_engine",
+                "big_shield"
+            ]
+        },
+        {
+            "id": "forward",
+            "price": 50,
+            "equipment": [
+                "big_energy",
+                "big_health",
+                "big_blaster",
+                "big_engine",
+                "big_blaster"
+            ]
+        },
+        {
+            "id": "daedalus",
+            "price": 50,
+            "equipment": [
+                "big_energy",
+                "big_health",
+                "big_engine",
+                "big_heal",
+                "big_blaster"
+            ]
+        },
+        {
+            "id": "lexx",
+            "price": 100,
+            "equipment": [
+                "big_energy",
+                "small_health",
+                "big_railgun",
+                "big_energy"
+            ]
+        },
+        {
+            "id": "starstorm",
+            "price": 42,
+            "equipment": [
+                "big_energy",
+                "big_health",
+                "big_engine",
+                "giant_blaster"
+            ]
+        },
+        {
+            "id": "orville",
+            "price": 70,
+            "equipment": [
+                "big_blaster",
+                "big_energy",
+                "big_health",
+                "big_engine",
+                "big_radar"
+            ]
+        },
+        {
+            "id": "falcon",
+            "price": 50,
+            "equipment": [
+                "big_energy",
+                "big_health",
+                "big_blaster",
+                "giant_engine"
+            ]
+        },
+        {
+            "id": "knight",
+            "price": 60,
+            "equipment": [
+                "big_energy",
+                "big_health",
+                "big_blaster",
+                "big_engine",
+                "giant_shield"
+            ]
+        },
+        {
+            "id": "eclipse",
+            "price": 110,
+            "equipment": [
+                "big_energy",
+                "big_energy",
+                "big_health",
+                "big_engine",
+                "big_railgun"
+            ]
+        },
+        {
+            "id": "scout",
+            "price": 40,
+            "equipment": [
+                "big_energy",
+                "big_health",
+                "big_blaster",
+                "big_engine"
+            ]
+        },
+        {
+            "id": "wallship",
+            "price": 50,
+            "equipment": [
+                "big_energy",
+                "big_health",
+                "big_shield",
+                "big_shield",
+                "big_engine"
+            ]
+        },
+        {
+            "id": "sharp",
+            "price": 40,
+            "equipment": [
+                "big_energy",
+                "big_health",
+                "big_nose",
+                "big_engine"
+            ]
+        }
+    ]
+}

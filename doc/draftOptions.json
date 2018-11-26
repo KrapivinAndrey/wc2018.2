@@ -111,7 +111,7 @@
             }
         },
         {
-            "Size": 1,
+            "Size": 2,
             "Equipment": {
                 "Type": 1,
                 "Damage": 50,
@@ -122,7 +122,7 @@
             }
         }
     ],
-    "completeShips": [
+    "CompleteShips": [
         {
             "Id": "delta",
             "Price": 50,
