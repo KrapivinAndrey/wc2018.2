@@ -22,6 +22,16 @@
         },
         {
             "AvailableToBuy": true,
+            "Price": 20,
+            "Size": 4,
+            "Equipment": {
+                "Name": "giant_engine",
+                "Type": "engine",
+                "MaxAccelerate": 2
+            }
+        },
+        {
+            "AvailableToBuy": true,
             "Price": 10,
             "Size": 1,
             "Equipment": {
